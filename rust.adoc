@@ -2,7 +2,8 @@
 
 == variables
 scalar types::
-  * integer: i8 \~ i64, isize, u8 \~ u64, usize, i32(default), 0x / 0o / 0b / b
+  * integer: i8 \~ i64, isize, u8 \~ u64, usize, i32(default), 0x / 0o
+    / 0b / b
   * float: f32, f64(default)
   * boolean: bool, true / false
   * character: char, single quotes, U+0000 \~ U+D7FF, U+E0000 \~
