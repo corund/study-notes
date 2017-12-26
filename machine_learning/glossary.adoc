@@ -6,3 +6,13 @@ one-hot & one-of-k::
   * category encoding, 카테고리 값을 각각 feature로 하여 존재
     여부(0/1)로 encoding
   * feature 가 굉장히 많아지므로 sparse matrix 를 사용
+
+feature hashing::
+  * aka. hashing trick
+  * using hash values directly as feature indices (rather than using
+    feature dictionary)
+
+back-of-word::
+  * BOM
+  * a text is represented as the bag(multiset) of words
+  * use (frequency of) occurrence as value
