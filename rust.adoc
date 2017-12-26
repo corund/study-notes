@@ -1,0 +1,34 @@
+= rust
+
+== variables
+scalar types::
+  * integer: i8 \~ i64, isize, u8 \~ u64, usize, i32(default), 0x / 0o / 0b / b
+  * float: f32, f64(default)
+  * boolean: bool, true / false
+  * character: char, single quotes, U+0000 \~ U+D7FF, U+E0000 \~
+    U+10FFFF
+
+compound types::
+  * tuple: (u8, u16, f64), destructuring, tuple.index(tup.0)
+  * array: [1, 2, 3], fixed length, allocated in stack
+
+== statement vs expression
+* statement
+  ** perform some action and do not return value
+  ** let, fn
+* expression
+  ** evaluate to a resulting value
+  ** calling function, calling macro
+  ** block
+  ** expression do not include ending semicolons.
+  ** Adding a semicolon to the end of an expression turns the
+     expression into a statement
+
+== Control Structure
+* loop
+* while
+* for
+
+== String Slice
+* [start .. end]
+* &str
