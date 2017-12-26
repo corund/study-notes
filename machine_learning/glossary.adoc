@@ -11,6 +11,8 @@ feature hashing::
   * aka. hashing trick
   * using hash values directly as feature indices (rather than using
     feature dictionary)
+  * 2가지 hash function을 사용하는 버전이 있음 - +/- 값으로 hash
+    collision에 대응
 
 back-of-word::
   * BOM
