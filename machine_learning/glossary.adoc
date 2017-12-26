@@ -1,0 +1,8 @@
+= Glossary
+
+== Features
+
+one-hot & one-of-k::
+  * category encoding, 카테고리 값을 각각 feature로 하여 존재
+    여부(0/1)로 encoding
+  * feature 가 굉장히 많아지므로 sparse matrix 를 사용
